@@ -43,3 +43,5 @@ console.log(list);
 
 // retornar todos os elementos por algo (Ex. Será separado por ;)
 console.log(list.join(';'));
+ 
+
