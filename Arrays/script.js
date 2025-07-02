@@ -30,3 +30,5 @@ newList.pop(); // Remove o último elemento
 console.log(newList);
 
 newList.join(';') // Retorna todos os elementos da lista, separado pelo que foi passado no parâmetro
+
+newList.sort(); // Classifica os elementos, por padrão será em ordem alfabética
