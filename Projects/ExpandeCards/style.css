@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.area {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.lang {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    margin-top: 5vh;
+    margin-left: 20px;
+}
+
+.lang a {
+    text-decoration: none;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 3px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.container div {
+    width: 100%;
+    min-width: 10%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 1;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+
+.div1 {
+    background: url(img1.jpg);
+}
+
+.div2 {
+    background: url(img2.jpg);
+}
+
+.div3 {
+    background: url(img3.jpg);
+}
+
+.div4 {
+    background: url(img4.jpg);
+}
+
+.div5 {
+    background: url(img5.jpg);
+}
+
+
+.div1:hover,
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover {
+    flex: 6;
+}
